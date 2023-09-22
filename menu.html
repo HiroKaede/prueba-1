@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="menu.css">
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="easejs.js"></script>
+    <title>Document</title>
+    <script> 
+        $(document).ready(function(){
+            $(".icono-menu").hover(function(){
+                $(this).stop().animate({
+                    marginLeft:"0"
+                },2500,"easeOutBounce")
+            },function(){
+                    $(this).stop().animate({
+                       marginLeft:"-250px" 
+                    },2500,"easeOutBounce")
+                });
+        }); 
+    </script>
+
+    
+
+</head>
+<body>
+    <div class="icono-menu">
+        <img src="raya.svg"  id="icono-menu">
+    </div>
+    <div class="conten active" id="menu">
+        <ul>
+            <a href="menu.html"><li>Inicio</li></a>
+            <a href="Juego.html"><li>Juegos</li></a>
+            <a href="creditos.html"><li>Creditos</li></a>
+        </ul>
+    </div>
+    <script src="menu.js"></script>
+
+    <ul class="sine">
+        <li>~</li>
+        <li>B</li>
+        <li>i</li>
+        <li>e</li>
+        <li>n</li>
+        <li>v</li>
+        <li>e</li>
+        <li>n</li>
+        <li>i</li>
+        <li>d</li>
+        <li>o</li>
+        <li>~</li>
+    </ul>
+    <div class="texto">
+        <p>Bienvenido a nuestra pagina espero te guste nuestro contenido, en el menu tendras las opciones para navegar,
+             el apartado de videojuegos te ofrece información sobre videojuegos populares y su información, por ultimo
+            en los creditos encontraras los saludos y personas involucradas en el trabajo.</p>
+    </div>
+    <footer>
+        <img src="foot.gif" alt="" class="logo">
+        <div class="social-icons-container">
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item">Legal</li>
+            <li class="menu-item">Cookies</li>
+            <li class="menu-item">Privacy</li>
+        </ul>
+        <span class="copyright">&copy; 2023, Krey Academy. All rights reserved.</span>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,543 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(32022-negro.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+
+    
+}
+.icono-menu{
+    -ms-wrap-margin: 40px 50px;
+    position: relative;
+    z-index: 10;
+}
+.icono-menu{
+    background-color: rgb(228, 228, 228);
+    color: rgb(42, 42, 42);
+    width: 400px;
+}
+.icono-menu img{
+    vertical-align: top;
+    width: 40px;
+    cursor: pointer;
+}
+.conten{
+    background-color: rgb(42, 42, 42);
+    box-shadow: 2px 0px 5px 2px rgba(255, 255, 255, 0.635);
+    width: 320px;
+    height: 130vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;
+
+}
+.active{
+    transform: translate(-600px);
+
+}
+.opacity{
+    background-color: rgb(255, 255, 255);
+    transition: all .5s ease;
+}
+
+.conten ul{
+    padding: 100px 0px 20px 0px;
+    list-style: none;
+}
+.conten ul li{
+    color: white;
+    display: block;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 10px 50px;
+    cursor: pointer;
+}
+.conten ul li:hover{
+    background-color: rgb(228, 228, 228);
+    color: rgb(42, 42, 42);
+}
+footer{
+    width: 100%;
+    position: relative;
+    top: 110vh;
+    bottom: 0;
+    left: 0;
+    padding: 2rem 8%;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    height: 80px;
+    margin-bottom: 1rem;
+}
+.social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+.social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #fff;
+    background-image: url(insta.jpg);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+}
+.social-icon:hover{
+    background-color: rgb(255, 255, 255);
+    filter: invert(1);
+}
+.social-icon:nth-of-type(2){
+    background-image:url(twit.png) ;
+}
+.social-icon:nth-of-type(3){
+    background-image:url(discro.png) ;
+}
+.footer-menu-container{
+    list-style-type: none;
+    color: #fff;
+    font-size: 18px;
+}
+.menu-item{
+    margin: 1rem 1.5rem;
+    cursor: pointer;
+    opacity: 0.6;
+}
+.menu-item:hover{
+    opacity: 1;
+}
+.copyright{
+    color: #fff;
+    opacity: 0.3;
+    text-align: center;
+}
+/*Hollow Knight*/
+.objeto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 30%;
+    margin-right: 30%;
+     
+}
+.card .card_landing{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient( transparent 80%, #000), var(--i);
+    background-position: center;
+    background-size: cover ;
+}
+
+
+.card .card_landing h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.card_landing{
+    z-index: 900;
+}
+.card .card_info{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+.card:hover .card_info{
+    left: 100%;
+}
+.card_info .head{
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+.card_info .head .titulo{
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+
+}
+.card_info .head .descripcion{
+    display: flex;
+    gap: 10px;
+}
+.card_info .head .descripcion .item{
+    display: flex;
+    gap: 5;
+    align-items: center;
+
+}
+.card_info .head .descripcion .item i{
+    color: #bc8811;
+    font-size: 20px;
+}
+.card_info .head .descripcion .item p{
+    
+    font-size: 15px;
+}
+.card_info .conteni{
+    margin-top: 15px;
+}
+.card_info .conteni .lista{
+    padding: 10px 15px;
+}
+.card_info .conteni .lista li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card_info .action .btn{
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 10px;
+}
+/*Hollow Knight*/
+
+/*Castle crashers*/
+.objeto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card1{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 30%;
+    margin-left: 40%;
+}
+.card1 .card_landing1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient( transparent 80%, #000), var(--a);
+    background-position: center;
+    background-size: cover ;
+}
+
+
+.card1 .card_landing1 h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.card_landing1{
+    z-index: 900;
+}
+.card1 .card_info1{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+.card1:hover .card_info1{
+    left: 100%;
+}
+.card_info1 .head1{
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+.card_info1 .head1 .titulo1{
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+
+}
+.card_info1 .head1 .descripcion1{
+    display: flex;
+    gap: 10px;
+}
+.card_info1 .head1 .descripcion1 .item1{
+    display: flex;
+    gap: 5;
+    align-items: center;
+
+}
+.card_info1 .head1 .descripcion1 .item1 i{
+    color: #bc8811;
+    font-size: 20px;
+}
+.card_info1 .head1 .descripcion1 .item1 p{
+    
+    font-size: 15px;
+}
+.card_info1 .conteni1{
+    margin-top: 15px;
+}
+.card_info1 .conteni1 .lista1{
+    padding: 10px 15px;
+}
+.card_info1 .conteni1 .lista1 li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card_info1 .action1 .btn1{
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 10px;
+}
+/*Castle crashers*/
+
+
+/*Dark souls*/
+.objeto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card2{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 90%;
+    margin-left: 40%;
+}
+.card2 .card_landing2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient( transparent 80%, #000), var(--e);
+    background-position: center;
+    background-size: cover ;
+}
+
+
+.card2 .card_landing2 h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.card_landing2{
+    z-index: 900;
+}
+.card2 .card_info2{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+.card2:hover .card_info2{
+    left: 100%;
+}
+.card_info2 .head2{
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+.card_info2 .head2 .titulo2{
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+
+}
+.card_info2 .head2 .descripcion2{
+    display: flex;
+    gap: 10px;
+}
+.card_info2 .head2 .descripcion2 .item2{
+    display: flex;
+    gap: 5;
+    align-items: center;
+
+}
+.card_info2 .head2 .descripcion2 .item2 i{
+    color: #bc8811;
+    font-size: 20px;
+}
+.card_info2 .head2 .descripcion2 .item2 p{
+    
+    font-size: 15px;
+}
+.card_info2 .conteni22{
+    margin-top: 15px;
+}
+.card_info2 .conteni2 .lista2{
+    padding: 10px 15px;
+}
+.card_info2 .conteni2 .lista2 li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card_info2 .action2 .btn2{
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 10px;
+}
+
+/*Dark souls*/
+
+
+
+/*Modern warfare*/
+.objeto3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.card3{
+    position: absolute;
+    width: 300px;
+    height: 400px;
+    margin-top: 90%;
+    margin-right: 30%;
+     
+}
+.card3 .card_landing3{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 5px 10px #000;
+    background: linear-gradient( transparent 80%, #000), var(--o);
+    background-position: center;
+    background-size: cover ;
+}
+
+
+.card3 .card_landing3 h6{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    color: #fff;
+}
+.card_landing3{
+    z-index: 900;
+}
+.card3 .card_info3{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    padding: 15px;
+    background: #fff;
+    z-index: 90;
+    box-shadow: 0 5px 10px #000;
+    transition: .5s;
+}
+.card3:hover .card_info3{
+    left: 100%;
+}
+.card_info3 .head3{
+    padding: 5px 0;
+    border-bottom: solid 1px #bc8811;
+}
+.card_info3 .head3 .titulo3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #bc8811;
+
+}
+.card_info3 .head3 .descripcion3{
+    display: flex;
+    gap: 10px;
+}
+.card_info3 .head3 .descripcion3 .item3{
+    display: flex;
+    gap: 5;
+    align-items: center;
+
+}
+.card_info3 .head3 .descripcion3 .item3 i{
+    color: #bc8811;
+    font-size: 20px;
+}
+.card_info3 .head3 .descripcion3 .item3 p{
+    
+    font-size: 15px;
+}
+.card_info3 .conteni3{
+    margin-top: 15px;
+}
+.card_info3 .conteni3 .lista3{
+    padding: 10px 15px;
+}
+.card_info3 .conteni3 .lista3 li{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.card_info3 .action3 .btn3{
+    padding: 10px;
+    color: #fff;
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    background: #bc8811;
+    display: block;
+    margin-top: 10px;
+}

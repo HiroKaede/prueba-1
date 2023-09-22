@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Juego.css">
+    <script src="code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="easejs.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <title>Document</title>
+    <script> 
+        $(document).ready(function(){
+            $(".icono-menu").hover(function(){
+                $(this).stop().animate({
+                    marginLeft:"0"
+                },2500,"easeOutBounce")
+            },function(){
+                    $(this).stop().animate({
+                       marginLeft:"-250px" 
+                    },2500,"easeOutBounce")
+                });
+        }); 
+    </script>
+    
+</head>
+<body>
+   
+    <div class="icono-menu">
+        <img src="raya.svg"  id="icono-menu">
+    </div>
+    <div class="conten active" id="menu">
+        <ul>
+            <a href="menu.html"><li>Inicio</li></a>
+            <a href="Juego.html"><li>Juegos</li></a>
+            <a href="creditos.html"><li>Creditos</li></a>
+        </ul>
+    </div>
+    <script src="menu.js"></script>
+
+<!--Hollow Knight-->
+    <div class="objeto">
+    <div class="card">
+        <div class="card_landing"  style="--i:url(hollow.jpg)">
+            <h6>~Hollow Knight~</h6>
+        </div>
+        <div class="card_info">
+            <div class="head">
+                <p class="titulo">~Hollow Knight~</p>
+                <div class="descripcion">
+                    <div class="item">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                    <p> Plataforma de steam</p>
+                    </div>
+                    <div class="item">
+                        <ion-icon name="card-outline"></ion-icon>
+                        <p> $ 14.99 USD </p>
+    
+                    </div>
+                </div>
+            </div>
+          
+            <div class="conteni">
+                <p class="titulo1">Descripción</p>
+                <ul class="lista">
+                    <li>Hollow Knight es una aventura de acción clásica en 2D ambientada en un vasto mundo interconectado.
+                        Explora cavernas tortuosas, ciudades antiguas y páramos mortales. Combate contra criaturas corrompidas, 
+                        haz nuevas amistades con extraños insectos y resuelve los antiguos misterios que yacen en el corazón del reino.</li>
+                </ul>
+            </div>
+            <div class="action">
+                <a href="" class="btn">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Hollow Knight-->
+
+
+<!--Castle crashers-->
+<div class="objeto1">
+    <div class="card1">
+        <div class="card_landing1"  style="--a:url(castle.jpg)">
+            <h6>~Castle crashers~</h6>
+        </div>
+        <div class="card_info1">
+            <div class="head1">
+                <p class="titulo1">~Castle Crashers~</p>
+                <div class="descripcion1">
+                    <div class="item1">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                    <p> Plataforma de steam</p>
+                    </div>
+                    <div class="item1">
+                        <ion-icon name="card-outline"></ion-icon>
+                        <p> $ 14.99 USD </p>
+    
+                    </div>
+                </div>
+            </div>
+          
+            <div class="conteni1">
+                <p class="titulo2"> Descripción</p>
+                <ul class="lista1">
+                    <li> Con 60FPS, Castle Crashers Remastered te ofrece unos gráficos en alta resolución como nunca los habías visto. 
+                        Juega junto a un máximo de tres amigos en modo local o en línea para salvar a tu princesa, defender tu reino y ¡colarte en castillos ajenos! 
+                        Características: ¡Desbloquea más de 25 personajes y más de 40 armas!</li>
+                </ul>
+            </div>
+            <div class="action1">
+                <a href="" class="btn1">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--Castle crashers-->
+<div class="objeto2">
+    <div class="card2">
+        <div class="card_landing2"  style="--e:url(darksoul.jpg)">
+            <h6>~Dark Souls III~</h6>
+        </div>
+        <div class="card_info2">
+            <div class="head2">
+                <p class="titulo2">~Dark Souls III~</p>
+                <div class="descripcion2">
+                    <div class="item2">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                    <p> Plataforma de steam</p>
+                    </div>
+                    <div class="item2">
+                        <ion-icon name="card-outline"></ion-icon>
+                        <p> $ 39.99 USD </p>
+    
+                    </div>
+                </div>
+            </div>
+          
+            <div class="conteni2">
+                <p class="titulo3"> Descripción</p>
+                <ul class="lista2">
+                    <li> Los juegos de Dark Souls se juegan desde una perspectiva en tercera persona y se centran en explorar entornos interconectados mientras
+                         se lucha contra enemigos con armas y magia. Los jugadores luchan contra jefes para avanzar en la historia, mientras interactúan con personajes
+                          no jugables</li>
+                </ul>
+            </div>
+            <div class="action2">
+                <a href="" class="btn2">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modern Warfare 3-->
+<div class="objeto3">
+    <div class="card3">
+        <div class="card_landing3"  style="--o:url(modern.jpg)">
+            <h6>~Modern Warfare III~</h6>
+        </div>
+        <div class="card_info3">
+            <div class="head3">
+                <p class="titulo3">~Modern Warfare III~</p>
+                <div class="descripcion3">
+                    <div class="item3">
+                        <ion-icon name="game-controller-outline"></ion-icon>
+                    <p> Plataforma de steam</p>
+                    </div>
+                    <div class="item3">
+                        <ion-icon name="card-outline"></ion-icon>
+                        <p> $ 39.99 USD </p>
+    
+                    </div>
+                </div>
+            </div>
+          
+            <div class="conteni3">
+                <p class="titulo4">Descripción</p>
+                <ul class="lista3">
+                    <li>Modern Warfare posee un modo multijugador en línea con variados modos de juego y distintos mapas, y contiene un sistema de nivelación 
+                        que permite al jugador desbloquear armas adicionales, accesorios de armas, y esquemas de camuflaje a medida que se avanza 
+                        en dicha nivelación.</li>
+                </ul>
+            </div>
+            <div class="action3">
+                <a href="" class="btn3">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <img src="foot.gif" alt="" class="logo">
+        <div class="social-icons-container">
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+            <a href="" class="social-icon"></a>
+        </div>
+        <ul class="footer-menu-container">
+            <li class="menu-item">Legal</li>
+            <li class="menu-item">Cookies</li>
+            <li class="menu-item">Privacy</li>
+        </ul>
+        <span class="copyright">&copy; 2023, Krey Academy. All rights reserved.</span>
+    </footer>
+    
+</body>
+</html>
